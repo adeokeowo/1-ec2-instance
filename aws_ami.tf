@@ -2,8 +2,8 @@ data "aws_ami" "amazonlinux" {
   most_recent = true
 
   filter {
-    name   = "name"
-    values = ["amzn2-ami-hvm-2.0.20180622.1-x86_64-gp2"]
+    name   = "ImageId"
+    values = ["ami-b8b45ddf"]
   }
 
   filter {
