@@ -1,6 +1,6 @@
 provider "aws" {
  region = "eu-west-2"
- version = "~> 1.15.77"
+ version = "~> 1.15.0"
 }
 
 resource "aws_instance" "my-test-instance" {
